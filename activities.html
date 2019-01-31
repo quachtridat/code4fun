@@ -5,6 +5,10 @@
         <title>Club Activities</title>
         <link rel="stylesheet" href="css/style1.css" />
         <link rel="stylesheet" type="text/css" href="css/styleactivity.css"/>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     </head>
     <body>
         <nav>
@@ -12,12 +16,12 @@
             <a href="index.html#aboutus">About us</a>
             <a href="articles.html">Articles</a>
             <a href="members.html">Members</a>
-            <a id="selected" href="activities.html">Activities</a>
+            <a class="selected" href="activities.html">Activities</a>
             <a href="contact.html">Contact us</a>
             <a href="join.html">Join us</a>
 		</nav>
         
-        <div id="subnav">
+        <div class="subnav">
         	<a href="#activity">Treasure Hunt</a>
             <a href="#studysession">Study Session</a>
             <a href="#fieldtrip">Field Trip</a>
@@ -26,9 +30,9 @@
         
         <main>
             <!--<marquee>Notice!!! Forms for 2019 Treasure hunt avaiable at the student lounge. Sign up now!!!</marquee>-->
-        	<div id="activity">
+        	<div class="activities-box">
                 <h1>Our Activities</h1>
-				<hr id="decoline">
+				<hr class="decoline">
                     <p>One of the major goals of a college club is to make learning fun and less stressful. We as a club organize various programs to achieve this goal.
                     We organize many programs where all students are welcome to participate. Our main event is the treasure hunt we organize once every year in the spring semester.
                     Other than treasure hunt we also organize study sessions, field visits, seminars and conferences. Some of our activities are mentioned below;</p>
@@ -78,8 +82,33 @@
             </div>
         </main>
         <footer>
-            <hr id="line">
-            To be updated
-        </footer>
+                <div class="footer-wrapper">
+                    <aside>
+                        <div class="the-address-wrapper">
+                            <h3><strong>ADDRESS</strong></h3>
+                            <div>
+                                <strong>FDU Vancouver's Code4Fun</strong>
+                                <br>
+                                Fairleigh Dickinson University Vancouver Campus
+                                <br>842 Cambie Street, Vancouver, B.C, V6B2P6
+                            </div>
+                        </div>
+                    </aside>
+                    <aside>
+                        <h3><strong>FOLLOW US</strong></h3>
+                        <div class="social-media">
+                            <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <div class="trademark" style="font-size: 15px;">© 2018 Code4Fun Club at FDU Vancouver</div>
+                    </aside>
+                    <aside>
+                        <h3><strong>CONTACT US</strong></h3>
+                        <div>Anh Pham: (778)-751-7243</div>
+                        <div>Prashan Malla: (604)-250-9162</div>
+                    </aside>
+                </div>
+            </footer>
     </body>
 </html>

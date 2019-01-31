@@ -43,8 +43,7 @@ nav img {
 .logo:hover {
     border-bottom: none;
 }
-
-#selected {
+.selected {
     border-bottom: solid #FF8E60 2px;
 }
 
@@ -63,7 +62,7 @@ h1 {
 }
 
 /*decoration line used after h1 tag in most pages*/
-#decoline {
+.decoline {
     width: 150px;
     border: solid #ff8e60 5px;
     margin-bottom: 100px;
@@ -107,10 +106,6 @@ textarea {
 }
 
 /*=================================================================Footer===========================================================================*/
-#line {
-    width: 70%;
-    margin: auto;
-}
 footer {
     margin-top: 20px;
     width: 100%;

@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style1.css"/>
 <link rel="stylesheet" type="text/css" href="css/styleindex.css"/>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 <title>Home</title>
 </head>
 
 <body>
 	<nav>
 		<a class="logo" href="index.html"><img src="images/logoplaceholder.png" alt="logo"/></a>
-        <a id="selected" href="index.html#aboutus">About us</a>
+        <a class="selected" href="index.html#aboutus">About us</a>
         <a href="articles.html">Articles</a>
         <a href="members.html">Members</a>
         <a href="activities.html">Activities</a>
@@ -18,17 +22,17 @@
         <a href="join.html">Join us</a>
 	</nav>
     <main>
-        <section id="topsection">
-            <div id="welcome">
+        <section class="top-section">
+            <div class="top-section__overlay-text">
                 <h1>Welcome to</h1>
                 <h2>Code 4 Fun</h2>
-                <div id="arrow"><a href="#aboutus"><img src="images/arrow.png" alt="arrow down"/></a></div>
+                <div class="top-section__overlay-text__arrow"><a href="#aboutus"><img src="images/arrow.png" alt="arrow down"/></a></div>
             </div>
-            <div class="background"></div>
+            <div class="top-section__background"></div>
         </section>
-        <div id="aboutus">
+        <div class="about-us" id="aboutus">
             <h1>About us</h1>
-            <hr id="decoline">
+            <hr class="decoline">
             
             <div class = column1home>
                 <div class="presentvideo">
@@ -56,8 +60,33 @@
         </div>
     </main>
     <footer>
-        <hr id="line">
-            To be updated
+        <div class="footer-wrapper">
+            <aside>
+                <div class="the-address-wrapper">
+                    <h3><strong>ADDRESS</strong></h3>
+                    <div>
+                        <strong>FDU Vancouver's Code4Fun</strong>
+                        <br>
+                        Fairleigh Dickinson University Vancouver Campus
+                        <br>842 Cambie Street, Vancouver, B.C, V6B2P6
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <h3><strong>FOLLOW US</strong></h3>
+                <div class="social-media">
+                    <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="trademark" style="font-size: 15px;">© 2018 Code4Fun Club at FDU Vancouver</div>
+            </aside>
+            <aside>
+                <h3><strong>CONTACT US</strong></h3>
+                <div>Anh Pham: (778)-751-7243</div>
+                <div>Prashan Malla: (604)-250-9162</div>
+            </aside>
+        </div>
     </footer>
 
 </body>

@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-#memberinfo {
+.member-box {
     margin-top: 100px;
     overflow: auto;
 }
 
-#info {
+.member-box__info-wrapper {
     margin: 0% 20% 0% 20%;
     overflow: auto;
 }
@@ -15,20 +15,44 @@
 .face {
     width: 100%;
     height: 100%;
+    border: solid #ff8e60 8px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 
-#buttons {
+footer{
+	background-color: #FF8E41;
+	color: #402310;
+	width: 100%;
+	overflow:auto;
+	text-align: center;
+	border-top-style:dashed;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+aside{
+	width: 33.3%;
+	float: left;
+}
+
+aside h3{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+.member-box__buttons {
     margin: 2% 20% 2% 20%;
     text-align: center;
 }
-#buttons a {
+.member-box__buttons a {
     text-decoration: none;
     color: #6A6666;
     font-size: 18px;
     margin: 0px 10px 0px 0px
 }
 
-#lkin {
+.lkin {
     width: 50px;
     height: 50px;
 }

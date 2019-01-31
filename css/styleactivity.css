@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*subnav for activity*/
-#subnav {
+.subnav {
     padding: 10px 0px 10px 70px;
     top: 70px;
     position: fixed;
@@ -10,18 +10,18 @@
     width: 100%;
     z-index: 1000;
 }
-#subnav a {
+.subnav a {
     text-decoration: none;
     color: rgb(219, 216, 216);
     padding: 7px;
     font-size: 15px;
 }
-#subnav a:hover {
+.subnav a:hover {
     border-bottom: solid #5B9BD4 2px;
 }
 
 /*Activity page*/
-#activity {
+.activities-box {
     margin: 170px 10% 0% 10%;
     
 }
@@ -50,4 +50,25 @@
     [class *= "column"]{
         width: 100%;
     }
+}
+
+footer{
+	background-color: #FF8E41;
+	color: #402310;
+	width: 100%;
+	overflow:auto;
+	text-align: center;
+	border-top-style:dashed;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+aside{
+	width: 33.3%;
+	float: left;
+}
+
+aside h3{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
 }

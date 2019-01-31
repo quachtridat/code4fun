@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style1.css"/>
     <link rel="stylesheet" type="text/css" href="css/stylename.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     <title>Amir Pourjabbari</title>
 </head>
 
@@ -12,7 +16,7 @@
         <a class="logo" href="index.html"><img src="images/logoplaceholder.png" alt="logo"/></a>
         <a href="index.html#aboutus">About us</a>
         <a href="articles.html">Articles</a>
-        <a id="selected" href="members.html">Members</a>
+        <a class="selected" href="members.html">Members</a>
         <a href="activities.html">Activities</a>
         <a href="contact.html">Contact us</a>
         <a href="join.html">Join us</a>
@@ -20,24 +24,49 @@
     
     
     <main>
-        <div id="memberinfo">
+        <div class="member-box">
             <h1>AMIR POURJABBARI</h1>
             <h2>Vice-President</h2>
-            <section id="info">
+            <section class="member-box__info-wrapper">
                 <div class="column1"> <img class="face" src="images/amir.png" alt="amir's image"/></div>
                 <div class="column2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="https://www.linkedin.com/in/amir-ali-p-0a7617a2/" target="_blank"><img id="lkin" src="images/linkedin.png" alt="linkedin logo"/></a>
+                    <a href="https://www.linkedin.com/in/amir-ali-p-0a7617a2/" target="_blank"><img class="lkin" src="images/linkedin.png" alt="linkedin logo"/></a>
                 </div>
             </section>
             
-            <div id="buttons"> <a href="prashan.html">Previous</a> <a href="members.html">Members</a> <a href="anh.html">Next</a></div>
+            <div class="member-box__buttons"> <a href="prashan.html">Previous</a> <a href="members.html">Members</a> <a href="anh.html">Next</a></div>
         </div>
 	</main>
     <footer>
-        <hr id="line">
-        To be updated
-    </footer>
+            <div class="footer-wrapper">
+                <aside>
+                    <div class="the-address-wrapper">
+                        <h3><strong>ADDRESS</strong></h3>
+                        <div>
+                            <strong>FDU Vancouver's Code4Fun</strong>
+                            <br>
+                            Fairleigh Dickinson University Vancouver Campus
+                            <br>842 Cambie Street, Vancouver, B.C, V6B2P6
+                        </div>
+                    </div>
+                </aside>
+                <aside>
+                    <h3><strong>FOLLOW US</strong></h3>
+                    <div class="social-media">
+                        <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" style="font-size: 20px; padding: 3px; color: black;"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="trademark" style="font-size: 15px;">© 2018 Code4Fun Club at FDU Vancouver</div>
+                </aside>
+                <aside>
+                    <h3><strong>CONTACT US</strong></h3>
+                    <div>Anh Pham: (778)-751-7243</div>
+                    <div>Prashan Malla: (604)-250-9162</div>
+                </aside>
+            </div>
+        </footer>
 </body>
 </html>

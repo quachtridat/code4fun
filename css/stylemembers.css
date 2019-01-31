@@ -31,6 +31,9 @@
     width: 150px;
     height: 150px;
     margin: auto;
+    border: solid #ff8e60 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 .imgbox {
     width: 150px;
@@ -65,4 +68,25 @@
         width: 400px;
         height: 400px;
     }
+}
+
+footer{
+	background-color: #FF8E41;
+	color: #402310;
+	width: 100%;
+	overflow:auto;
+	text-align: center;
+	border-top-style:dashed;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+aside{
+	width: 33.3%;
+	float: left;
+}
+
+aside h3{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
 }
